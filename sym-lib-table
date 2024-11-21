@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rfm69cw")(type "KiCad")(uri "${KIPRJMOD}/parts/rfm69cw.kicad_sym")(options "")(descr ""))
+  (lib (name "hdc2010")(type "KiCad")(uri "${KIPRJMOD}/parts/hdc2010.kicad_sym")(options "")(descr ""))
+  (lib (name "tps61291")(type "KiCad")(uri "${KIPRJMOD}/parts/tps61291.kicad_sym")(options "")(descr ""))
+  (lib (name "ATSAML1x")(type "KiCad")(uri "${KIPRJMOD}/parts/ATSAML1x.kicad_sym")(options "")(descr ""))
+)
