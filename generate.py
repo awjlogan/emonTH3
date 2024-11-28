@@ -104,7 +104,7 @@ if __name__ == "__main__":
     print("Done!")
 
     print("> Rendering PCB floorplan into PDF file... ", end='')
-    pcb_pdf_cmd = f"{kicad_cli} pcb export pdf -o emonTH3-floorplan.pdf -l F.Paste,F.Silkscreen,Edge.Cuts,F.Mask --black-and-white --ev emonTH.kicad_pcb"
+    pcb_pdf_cmd = f"{kicad_cli} pcb export pdf -o emonTH3-floorplan.pdf -l F.Paste,F.Silkscreen,Edge.Cuts,F.Mask,User.Drawings,User.Comments --black-and-white --ev emonTH.kicad_pcb"
     subprocess.run(shlex.split(pcb_pdf_cmd),
                    capture_output=True)
     print("Done!")
