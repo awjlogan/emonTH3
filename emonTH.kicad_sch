@@ -6,8 +6,8 @@
 
   (title_block
     (title "emonTH3")
-    (date "2024-11-22")
-    (rev "0.1-dev")
+    (date "2024-11-28")
+    (rev "0.2")
     (company "OpenEnergyMonitor / Tilt Ltd")
   )
 
@@ -2001,7 +2001,6 @@
       )
     )
   )
-
 
   (junction (at 278.13 124.46) (diameter 0) (color 0 0 0 0)
     (uuid 0e46da24-8a4b-447f-9d83-0ba793f4cc8c)

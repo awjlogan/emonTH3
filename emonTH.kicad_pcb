@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "emonTH3")
+    (date "2024-11-28")
+    (rev "v0.2")
+    (company "OpenEnergyMonitor / Tilt Ltd")
+  )
+
   (layers
     (0 "F.Cu" mixed)
     (31 "B.Cu" mixed)
@@ -3550,7 +3557,7 @@
   (gr_text "⏚" (at 141.5 95.5) (layer "F.SilkS") (tstamp 181490b1-e3a5-45fc-9ade-2485e8d28e89)
     (effects (font (size 0.8 0.8) (thickness 0.2) bold))
   )
-  (gr_text "emonTH3\nv0.1-dev\ngitrev" (at 161 66) (layer "F.SilkS") (tstamp 4a341870-cf58-4c23-8e94-cb04bb9d8e37)
+  (gr_text "emonTH3\nv0.2\ngitrev" (at 161 66) (layer "F.SilkS") (tstamp 4a341870-cf58-4c23-8e94-cb04bb9d8e37)
     (effects (font (size 1 1) (thickness 0.25) bold) (justify left bottom))
   )
   (gr_text "3V3" (at 138 110) (layer "F.SilkS") (tstamp 52dc0a35-334e-4635-a029-8681726b73f2)
