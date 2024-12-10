@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "rfm69cw")(type "KiCad")(uri "${KIPRJMOD}/footprints/rfm69cw.pretty")(options "")(descr "HopeRF RFM69CW module"))
   (lib (name "hdc2010")(type "KiCad")(uri "${KIPRJMOD}/footprints/hdc2010.pretty")(options "")(descr "TI HDC2010 sensor"))
+  (lib (name "bh321")(type "KiCad")(uri "${KIPRJMOD}/footprints/bh321.pretty")(options "")(descr ""))
 )
