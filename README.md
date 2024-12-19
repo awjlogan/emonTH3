@@ -13,6 +13,13 @@ It is an update to the [OpenEnergyMonitor](https://openenergymonitor.org) [emonT
 
 It should be used with the [emonTH-fw](https://github.com/awjlogan/emonTH-fw) firmware.
 
+## Updating the firmware using a Raspberry Pi
+
+The microcontroller can be flashed using a Raspberry Pi and OpenOCD. This allows end users to update the emonTH3's firmware without a specialised Cortex-M debugger. The following steps are used to do this:
+
+> [!WARNING]
+> The emonTH3 must be powered by the +3V3 supply provided by the Raspberry Pi while it is being programmed otherwise the microcontroller could be permanently damaged. The batteries must be removed before programming and the external supply removed before they are reinserted.
+
 ## Getting started
 
 The board is designed using [KiCAD](https://www.kicad.org) version 7. The schematic and floorplan are provided as PDF files. If you want to render your own files, run `./generate.py`. This produces Gerber files as well as KiCAD PCB and schematic files tagged with the git commit for traceability.
@@ -29,12 +36,12 @@ These can be reported:
 
 ## Contributing
 
-As the hardware design flow doesn't quite follow as nicely as software, if you want to contribute a change, please raise an issue above and we can collaborate.
+As the hardware design flow doesn't quite follow as nicely as software, if you want to contribute a change, please raise an issue as described above and we can collaborate.
 
 After cloning the repository, run `./install-hooks.sh` to add the render on commit.
 
 ## Acknowledgements
 
 - Glyn Hudson and Trystan Lea @ OpenEnergyMonitor
-
+- Gorden Davidson @ OpenEnergyMonitor Forums
 
