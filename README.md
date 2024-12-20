@@ -27,6 +27,13 @@ The board is designed using [KiCAD](https://www.kicad.org) version 7. The schema
 > [!NOTE]
 > The emonTH3 will be available fully assembled and programmed from the OpenEnergyMonitor shop in 2025.
 
+## Design information
+
+Designing for ultra low power operation is very challenging and involves investigating every component and the whole system architecture. On the hardware side, the main considerations are:
+
+- Leakage of high value capacitors.
+- Idle current of all components.
+
 ## Feedback and Issues
 
 These can be reported:
