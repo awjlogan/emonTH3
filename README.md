@@ -47,6 +47,11 @@ As the hardware design flow doesn't quite follow as nicely as software, if you w
 
 After cloning the repository, run `./install-hooks.sh` to add the render on commit.
 
+## References
+
+- [CC-Antenna-DK and Antenna Measurements Summary](https://www.ti.com/lit/an/swra328/swra328.pdf?ts=1738909180441)
+- [Camden Boss CBRS01VBK datasheet](https://www.camdenboss.com/camden-boss/cbrs01vbk-room-sensor-enclosure%2c-size-1%2c-vented%2c-black%2c-86x86x25.5mm/c-23/p-24104)
+
 ## Acknowledgements
 
 - Glyn Hudson and Trystan Lea @ OpenEnergyMonitor
