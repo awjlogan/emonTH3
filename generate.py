@@ -129,7 +129,7 @@ if __name__ == "__main__":
     
     # Export and zip the gerbers files
     print("> Exporting Gerbers... ", end='')
-    gerber_cmd = f"{kicad_cli} pcb export gerbers -o {outdir}/ -l F.Cu,F.Paste,F.Silkscreen,F.Mask,B.Cu,B.Paste,B.Silkscreen,B.Mask,In1.Cu,In2.Cu --ev --subtract-soldermask {outdir}/emonTH.kicad_pcb"
+    gerber_cmd = f"{kicad_cli} pcb export gerbers -o {outdir}/ -l F.Cu,F.Paste,F.Silkscreen,F.Mask,B.Cu,B.Paste,B.Silkscreen,B.Mask,In1.Cu,In2.Cu,Edge.Cuts --ev --subtract-soldermask {outdir}/emonTH.kicad_pcb"
     zip_cmd = f"zip {outdir}/emonTH3-gerbers.zip {outdir}/*.g*"
     subprocess.run(shlex.split(gerber_cmd), capture_output=True)
     gerbers = get_gerber_names(outdir)
