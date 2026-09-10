@@ -13,6 +13,7 @@ It is an update to the [OpenEnergyMonitor](https://openenergymonitor.org) [emonT
 - Update to modern components
 - Reduce the overall cost of the system
 - Provide user expansion for other sensors
+- ATSAML10E15A-MU Microprocessor 
 
 It should be used with the [emonTH-fw](https://github.com/awjlogan/emonTH-fw) firmware.
 
